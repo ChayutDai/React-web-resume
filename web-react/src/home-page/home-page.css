@@ -1,0 +1,34 @@
+.segment-top{
+    margin-top: 1.5em;
+}
+.welcome-landing{
+    background-image: url(./img/header6.jpg);
+    color: white;
+}
+.center{
+    text-align: center;
+}
+.segment-bottom{
+    min-height: 730px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .segment-top{
+        margin-top: 0.8em;
+    }
+    .welcome-landing{
+        background-image: url(./img/header6.jpg);
+    }
+    .center{
+        text-align: center;
+    }
+    .segment-bottom{
+        min-height: 530px;
+    }
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }

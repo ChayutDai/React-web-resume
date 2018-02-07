@@ -1,0 +1,34 @@
+
+.position-img{
+    margin-left: auto;
+}
+.segment-aboutme{
+    margin-top: 40px;
+}
+.padding-end{
+    padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 500px){
+    .segment-boxtext {
+        min-height: 350px;
+    }
+    .segment-end{
+        min-height: 400px;
+    }
+    .position-img{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .segment-aboutme{
+        margin-top: 30px;
+    }
+    .ui.medium.image{
+        width: 200px;
+        height: auto;
+    }
+    .padding-end{
+        padding-bottom: 40px;
+    }
+}
+

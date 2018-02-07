@@ -1,0 +1,66 @@
+.background-skill{
+    background-color: #f9f9f9;
+}
+.h1skill{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.fa-code{
+    padding-top: 23px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 25px;
+    font-size: 44px;
+}
+.fa-magic{
+    padding-top: 27px;
+    padding-right: 23px;
+    padding-left: 27px;
+    padding-bottom: 23px;
+    font-size: 44px;
+}
+.fa-code-fork{
+    padding-top: 22px;
+    padding-right: 23px;
+    padding-left: 28px;
+    padding-bottom: 23px;
+    font-size: 50px;
+}
+.fa-cogs{
+    padding-top: 26px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 23px;
+    font-size: 44px;
+}
+
+.circle-skill{
+    
+    border: 2.5px solid rgb(241, 177, 58);    
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: wheat;
+    
+}
+
+.border-skill{
+    padding-top: 90px;
+    margin-top: -56px;
+    padding-bottom: 56px;
+    border: 2.5px solid rgb(252, 200, 123);
+}
+.left {
+    text-align: left;
+    padding-left: 15px;
+}
+
+
+@media only screen and (max-width: 500px){
+    .h1skill{
+        padding-top: 30px;
+        padding-top: 30px;
+    }
+}
